@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link rel="stylesheet" href="chit.css">
+    <form>
+  <h3>Chit Calculator</h3>
+
+  <label for="noOfMembers">No of Members</label>
+  <input type="number" id="noOfMembers">
+
+  <label for="duration">Duration</label>
+  <input type="number" placeholder="" id="duration">
+
+  <label for="monthlyPay">Monthly Amount</label>
+  <input type="number" oninput="totalpot()" placeholder="" id="monthlyPay">
+
+  
+
+  <label for="winner">Discount Offered</label>
+  <input type="number"  oninput="sacrifice()" placeholder="" id="winner">
+<br>
+  </form>
+  <div class="social">
+    <div class="fb"><p class = "leftofp">Total Value</p><p class = "p" id = "totalpot">Hello</p></div>
+    <div class="fb"><p class = "leftofp">Amount Sacrificed</p><p class = "p" id="amountOfDiscount"> &nbsp; </p></div>
+    <div class="fb"><p class = "leftofp">Amount Received</p><p class = "p" id = "amountReceived"> &nbsp; </p></div>
+    <div class="fb"><p class = "leftofp">Foreman Commission</p><p class = "p" id = "commission"> &nbsp; </p></div>
+    <div class="fb"><p class = "leftofp">Total Divident</p><p class = "p" id = "totaldivident"> &nbsp; </p></div>
+    <div class="fb"><p class = "leftofp">Divident Credit</p><p class = "p" id = "dividentCreditEach"> &nbsp; </p></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
